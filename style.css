@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=PT+Serif:wght@400;700&family=Poppins:wght@400;600&display=swap");
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Poppins";
+  background: #fafafa;
+}
+h1 {
+  font-family: "PT Serif";
+  font-size: 2.25rem;
+  line-height: 48px;
+  letter-spacing: -0.045em;
+}
+
+.about {
+  font-family: "Poppins";
+}
+.about h2 {
+  font-weight: 600;
+  font-size: 1.125rem;
+  line-height: 27px;
+  text-transform: uppercase;
+}
+.about p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.profile h3 {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+}
+.profile p {
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 13px;
+  text-transform: uppercase;
+}
+footer {
+  font-family: "Montserrat";
+  font-weight: 700;
+  text-align: center;
+  color: #a9a9a9;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+img {
+  width: 80%;
+}
+
+body {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  width: 80%;
+  margin: 0 auto;
+  background-color: #fafafa;
+}
+
+header {
+  padding: 2rem 0;
+}
+
+.about {
+  margin: 2rem 0;
+}
+.team-section {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.profile:nth-child(2n) {
+  margin-top: 4rem;
+}
+.profile-img {
+  display: flex;
+}
+.profile-img p {
+  -webkit-writing-mode: vertical-rl;
+  -ms-writing-mode: tb-rl;
+  writing-mode: vertical-rl;
+  margin-top: 0.5rem;
+}
+footer {
+  padding: 5rem 0 1rem 0;
+}
+@media only screen and (min-width: 900px) {
+  header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  body {
+    width: 70%;
+  }
+  .about {
+    margin: 0;
+  }
+  .team-section {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .profile:nth-child(2n) {
+    margin-top: 0rem;
+  }
+  .profile:nth-child(3n + 2) {
+    margin-top: 4rem;
+  }
+}
