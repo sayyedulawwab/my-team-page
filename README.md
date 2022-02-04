@@ -10,7 +10,7 @@
       Demo
     </a>
     <span> | </span>
-    <a href="https://github.com/sayyedulbappy/my-team-page">
+    <a href="https://github.com/sayyedulawwab/my-team-page">
       Solution
     </a>
     <span> | </span>
@@ -68,5 +68,5 @@ This application/site was created as a submission to a [DevChallenges](https://d
 
 ## Contact
 
-- GitHub [@sayyedulbappy](https://github.com/sayyedulbappy)
-- Twitter [@sayyedulbappy](https://twitter.com/sayyedulbappy)
+- GitHub [@sayyedulawwab](https://github.com/sayyedulawwab)
+- LinkedIn [@sayyedulawwab](https://www.linkedin.com/in/sayyedulawwab/)
